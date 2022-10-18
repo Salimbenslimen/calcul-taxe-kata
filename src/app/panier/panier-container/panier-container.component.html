@@ -1,0 +1,12 @@
+<div class="container d-flex flex-row">
+  <app-panier-list
+    (changePanier)="selectPanier($event)"
+    [paniers]="paniers"
+    class="flex-50 pr-10"
+  ></app-panier-list>
+  <app-panier-details
+    *ngIf="selectedPanier"
+    [panier]="selectedPanier"
+    class="flex-50 pl-10"
+  ></app-panier-details>
+</div>

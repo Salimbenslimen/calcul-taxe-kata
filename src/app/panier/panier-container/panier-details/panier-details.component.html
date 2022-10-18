@@ -1,0 +1,24 @@
+<h4>Facture</h4>
+
+<ul>
+  <li *ngFor="let transaction of panier.transactions">
+    <span>
+      {{ transaction.quantite }} x ({{ transaction.produit.libelle }})
+    </span>
+    <span *ngIf="transaction.produit.isImported"> importé</span>
+    <span> à {{ transaction.produit.prixHT | currency: "EUR" }} :</span>
+    <span>
+      {{ transaction.produit.prixTTC | arrondiCinqCentSup | currency: "EUR" }}
+      TTC</span
+    >
+  </li>
+  <br />
+  <li>
+    Montant des taxes :
+    {{ panier.taxeTotale | arrondiCinqCentSup | currency: "EUR" }}
+  </li>
+  <li>
+    Total :
+    {{ panier.totale | arrondiCinqCentSup | currency: "EUR" }}
+  </li>
+</ul>

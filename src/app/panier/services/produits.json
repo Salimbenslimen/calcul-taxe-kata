@@ -1,0 +1,95 @@
+[
+  {
+    "transactions": [
+      {
+        "produit": {
+          "libelle": "Livre",
+          "type": "LIVRE",
+          "isImported": false,
+          "prixHT": 12.49
+        },
+        "quantite": 2
+      },
+      {
+        "produit": {
+          "libelle": "CD musical",
+          "type": "AUTRES",
+          "isImported": false,
+          "prixHT": 14.99
+        },
+        "quantite": 1
+      },
+      {
+        "produit": {
+          "libelle": "barre de chocolat",
+          "type": "NOURRITURE",
+          "isImported": false,
+          "prixHT": 0.85
+        },
+        "quantite": 3
+      }
+    ]
+  },
+  {
+    "transactions": [
+      {
+        "produit": {
+          "libelle": "boite de chocolat",
+          "type": "NOURRITURE",
+          "isImported": true,
+          "prixHT": 10
+        },
+        "quantite": 2
+      },
+      {
+        "produit": {
+          "libelle": "flacon de parfum",
+          "type": "AUTRES",
+          "isImported": true,
+          "prixHT": 47.5
+        },
+        "quantite": 3
+      }
+    ]
+  },
+  {
+    "transactions": [
+      {
+        "produit": {
+          "libelle": "flacon de parfum",
+          "type": "AUTRES",
+          "isImported": true,
+          "prixHT": 27.99
+        },
+        "quantite": 2
+      },
+      {
+        "produit": {
+          "libelle": "flacon de parfum",
+          "type": "AUTRES",
+          "isImported": false,
+          "prixHT": 18.99
+        },
+        "quantite": 1
+      },
+      {
+        "produit": {
+          "libelle": "boite de pillules contre la migraine",
+          "type": "MEDICAMENT",
+          "isImported": false,
+          "prixHT": 9.75
+        },
+        "quantite": 3
+      },
+      {
+        "produit": {
+          "libelle": "boite de chocolat",
+          "type": "NOURRITURE",
+          "isImported": true,
+          "prixHT": 11.25
+        },
+        "quantite": 2
+      }
+    ]
+  }
+]
