@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Transaction } from 'src/app/core/domain/transaction.interface';
 import { Panier } from '../../core/domain/panier.interface';
-import { Produit } from '../../core/domain/produit.interface';
 import { PanierService } from '../services/panier.service';
 import { CalculUtil } from '../utils/calcul.util';
 

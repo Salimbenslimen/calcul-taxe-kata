@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { Transaction } from 'src/app/core/domain/transaction.interface';
 import { Panier } from '../../../core/domain/panier.interface';
 
 @Component({
